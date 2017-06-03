@@ -1,4 +1,4 @@
-function stripAndShape(number) {
+function stripAndShape(data) {
   let newData = data.replace(/[^0-9]/g, '');
 
   if (newData[0] === '1') {
