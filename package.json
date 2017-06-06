@@ -3,10 +3,16 @@
   "version": "1.0.0",
   "description": "A Sandbox app",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "restart": "pm2 startOrRestart ecosystem.config.js",
+    "deploy": "pm2 deploy ecosystem.config.js production"
+  },
   "author": "Blake Guilloud",
   "license": "ISC",
   "dependencies": {
     "express": "^4.15.3"
+  },
+  "devDependencies": {
+    "pm2": "^2.4.6"
   }
 }
