@@ -8,7 +8,7 @@ module.exports = {
     // First application
     {
       name      : 'Sandbox',
-      script    : 'index.js',
+      script    : './index.js',
       env: {
         COMMON_VARIABLE: 'true'
       },
