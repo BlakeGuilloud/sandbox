@@ -1,13 +1,6 @@
-function stripAndShape(data) {
-  let newData = data.replace(/[^0-9]/g, '');
-
-  if (newData[0] === '1') {
-    newData = `+${newData}`;
-  } else {
-    newData = `+1${newData}`;
-  }
-
-  return newData;
-}
-
-module.exports = stripAndShape;
+const express = require('express')
+const app = express()
+app.get('/', (req, res) => {
+  res.send('HEY!')
+})
+app.listen(3000, () => console.log('Server running on port 3000'))

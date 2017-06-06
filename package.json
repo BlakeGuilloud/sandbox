@@ -1,9 +1,12 @@
 {
   "name": "testing12",
-  "version": "1.0.6",
+  "version": "1.0.0",
   "description": "A Sandbox app",
   "main": "index.js",
   "scripts": {},
   "author": "Blake Guilloud",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.3"
+  }
 }
