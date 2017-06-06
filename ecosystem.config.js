@@ -9,7 +9,11 @@ module.exports = {
     {
       name      : 'Sandbox',
       script    : './index.js'
-    }
+    },
+    {
+      name      : 'Sandbox2',
+      script    : './index.js'
+    },
   ],
 
   /**
